@@ -1,6 +1,4 @@
 """환경 설정 로딩 (.env 또는 OS 환경변수)."""
-from __future__ import annotations
-
 import os
 from pathlib import Path
 

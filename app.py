@@ -4,8 +4,6 @@
 - Gmail 앱 비밀번호로 인증 메일(인증 URL) 발송 -> 인증 완료 시 가입 확정
 - 로그인 회원은 본인이 등록한 관심 종목만 조회 / 그래프 확인
 """
-from __future__ import annotations
-
 from datetime import date, datetime, timedelta
 
 import pandas as pd

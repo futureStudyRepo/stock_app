@@ -1,6 +1,4 @@
 """SQLite 저장소 계층: 회원 / 이메일 인증 토큰 / 관심 종목."""
-from __future__ import annotations
-
 import hashlib
 import os
 import sqlite3

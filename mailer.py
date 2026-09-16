@@ -1,6 +1,4 @@
 """Gmail 앱 비밀번호(App Password)를 이용한 인증 메일 발송."""
-from __future__ import annotations
-
 import smtplib
 import ssl
 from email.message import EmailMessage

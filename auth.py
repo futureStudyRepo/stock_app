@@ -1,6 +1,4 @@
 """비밀번호 해싱 / 인증 토큰 / 회원가입·로그인 유스케이스."""
-from __future__ import annotations
-
 import re
 import secrets
 

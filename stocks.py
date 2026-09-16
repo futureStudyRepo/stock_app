@@ -1,6 +1,4 @@
 """FinanceDataReader 기반 시세 조회 (Streamlit 캐시 적용)."""
-from __future__ import annotations
-
 from datetime import date
 
 import FinanceDataReader as fdr
