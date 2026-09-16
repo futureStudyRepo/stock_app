@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="150" viewBox="0 0 640 150" role="img" aria-label="관심종목 대시보드">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="150" rx="14" fill="url(#bg)"/>
+
+  <!-- 캔들스틱 모티프 -->
+  <g stroke-width="7" stroke-linecap="round">
+    <g stroke="#ef4444">
+      <line x1="46" y1="92" x2="46" y2="120"/>
+      <line x1="46" y1="98" x2="46" y2="114" stroke-width="16"/>
+    </g>
+    <g stroke="#22c55e">
+      <line x1="76" y1="56" x2="76" y2="112"/>
+      <line x1="76" y1="66" x2="76" y2="102" stroke-width="16"/>
+    </g>
+    <g stroke="#ef4444">
+      <line x1="106" y1="72" x2="106" y2="118"/>
+      <line x1="106" y1="80" x2="106" y2="108" stroke-width="16"/>
+    </g>
+    <g stroke="#22c55e">
+      <line x1="136" y1="34" x2="136" y2="96"/>
+      <line x1="136" y1="42" x2="136" y2="86" stroke-width="16"/>
+    </g>
+  </g>
+
+  <!-- 이동평균선 -->
+  <path d="M40 106 L70 88 L100 94 L130 62" fill="none" stroke="#fbbf24" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+
+  <text x="190" y="66" font-size="34" font-weight="700" fill="#f8fafc"
+        font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',system-ui,sans-serif">
+    관심종목 대시보드
+  </text>
+  <text x="192" y="98" font-size="16" fill="#94a3b8"
+        font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',system-ui,sans-serif">
+    회원 인증 + 나만의 관심 종목 차트
+  </text>
+  <text x="192" y="122" font-size="13" fill="#64748b" letter-spacing="1.2"
+        font-family="Consolas,'Courier New',monospace">
+    Streamlit · SQLite3 · FinanceDataReader
+  </text>
+</svg>
